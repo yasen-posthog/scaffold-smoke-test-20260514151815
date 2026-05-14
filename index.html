@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scaffold Smoke Test - Rapid Project Setup &amp; Health Checks</title>
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            primary: 'var(--brand-primary)',
+                            accent: 'var(--brand-accent)',
+                            neutral: 'var(--brand-neutral)',
+                        },
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-white text-slate-900 font-sans antialiased">
+<header class="sticky top-0 z-50 backdrop-blur bg-white/80 border-b border-slate-200">
+    <nav class="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
+        <a href="#" class="flex items-center gap-2 font-semibold text-slate-900">
+            <span class="inline-block h-7 w-7 rounded-lg bg-gradient-to-br from-brand-primary to-brand-accent"></span>
+            Scaffold smoke test
+        </a>
+        <div class="hidden md:flex items-center gap-6">
+            <a href="#social-proof" class="text-sm text-slate-600 hover:text-slate-900 transition-colors">Social proof</a>
+<a href="#features" class="text-sm text-slate-600 hover:text-slate-900 transition-colors">Features</a>
+<a href="#how-it-works" class="text-sm text-slate-600 hover:text-slate-900 transition-colors">How it works</a>
+<a href="#pricing" class="text-sm text-slate-600 hover:text-slate-900 transition-colors">Pricing</a>
+<a href="#faq" class="text-sm text-slate-600 hover:text-slate-900 transition-colors">FAQ</a>
+            
+        </div>
+    </nav>
+</header>
+<main>
+<section id="hero" class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-b from-brand-neutral via-white to-white"></div>
+    <div class="absolute -top-32 left-1/2 -z-10 -translate-x-1/2 h-[36rem] w-[72rem] rounded-full bg-brand-primary/10 blur-3xl"></div>
+    <div class="mx-auto max-w-4xl px-6 pt-20 pb-16 md:pt-32 md:pb-24 text-center">
+        <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold">Scaffold smoke test</p>
+        <h1 class="mt-4 text-4xl md:text-6xl font-bold tracking-tight text-slate-900 leading-[1.05]">Scaffold smoke test</h1>
+        <p class="mt-6 text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed"><strong>Launch Flawless Projects, Faster.</strong> Stop wasting time on boilerplate. Scaffold Smoke Test gets your new projects off the ground with automated setup and essential health checks. <strong>Get Started Free</strong></p>
+        <div class="mt-10 flex flex-wrap gap-3 justify-center">
+            
+            
+        </div>
+    </div>
+</section>
+<section id="social-proof" class="border-y border-slate-100 bg-white py-10">
+    <div class="mx-auto max-w-5xl px-6">
+        <p class="text-center text-xs uppercase tracking-widest text-slate-500 mb-6">**Trusted by developers at innovative startups.** &#x27;Scaffold Smoke Test cut my setup time in half!&#x27; - *Early Adopter Name, Startup Co.*</p>
+        <div class="flex flex-wrap justify-center items-center gap-x-10 gap-y-4">
+            <span class="text-slate-400 font-semibold tracking-wide text-sm md:text-base">YC</span>
+<span class="text-slate-400 font-semibold tracking-wide text-sm md:text-base">Indie Hackers</span>
+<span class="text-slate-400 font-semibold tracking-wide text-sm md:text-base">Product Hunt</span>
+<span class="text-slate-400 font-semibold tracking-wide text-sm md:text-base">Hacker News</span>
+        </div>
+    </div>
+</section>
+<section id="features" class="bg-brand-neutral py-20 md:py-28">
+    <div class="mx-auto max-w-6xl px-6">
+        <div class="max-w-2xl">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900">Features</h2>
+            <p class="mt-4 text-lg text-slate-600"><strong>Features that accelerate your development.</strong> - <strong>Instant Project Scaffolding:</strong> Generate new projects with your preferred tech stack in seconds. - <strong>Automated Initial Health Checks:</strong> Catch common errors and ensure best practices from the very beginning. - <strong>Configurable Project Templates:</strong> Customize and save your own templates for consistent project starts. - <strong>Dependency Validation:</strong> Automatically verify all project dependencies are correctly installed and compatible.</p>
+        </div>
+        <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            
+        </div>
+    </div>
+</section>
+<section id="how-it-works" class="bg-white py-20 md:py-28">
+    <div class="mx-auto max-w-5xl px-6">
+        <div class="max-w-2xl">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900">How it works</h2>
+            <p class="mt-4 text-lg text-slate-600"><strong>Get Started in 3 Simple Steps.</strong> - <strong>1. Choose Your Template:</strong> Select from a library of popular stacks or use your own custom template. - <strong>2. Generate &amp; Configure:</strong> Scaffold your project instantly and apply any specific configurations. - <strong>3. Run Initial Smoke Tests:</strong> Automatically execute essential health checks to confirm everything is set up correctly.</p>
+        </div>
+        <div class="mt-12 grid gap-10 md:grid-cols-2">
+            
+        </div>
+    </div>
+</section>
+<section id="pricing" class="bg-brand-neutral py-20 md:py-28">
+    <div class="mx-auto max-w-6xl px-6">
+        <div class="text-center max-w-2xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900">Pricing</h2>
+            <p class="mt-4 text-lg text-slate-600"><strong>Simple, transparent pricing.</strong> - <strong>Free Tier:</strong> Get started with basic scaffolding and 5 smoke tests/month. - <strong>Pro Plan ($19/month):</strong> Unlimited scaffolding, 50 smoke tests/month, custom templates. - <strong>Business Plan ($49/month):</strong> All Pro features, 200 smoke tests/month, priority support, team collaboration.</p>
+        </div>
+        <div class="mt-12 grid gap-6 md:grid-cols-1">
+            
+        </div>
+    </div>
+</section>
+<section id="faq" class="bg-white py-20 md:py-28">
+    <div class="mx-auto max-w-3xl px-6">
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 text-center">Frequently asked questions</h2>
+        <div class="mt-12 space-y-3">
+            
+        </div>
+    </div>
+</section>
+<section id="final-cta" class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-br from-brand-primary via-brand-primary to-brand-accent"></div>
+    <div class="mx-auto max-w-4xl px-6 py-20 md:py-28 text-center">
+        <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white">Ready to try Scaffold smoke test?</h2>
+        <p class="mt-4 text-lg md:text-xl text-white/85 max-w-2xl mx-auto leading-relaxed"><strong>Ready to build faster?</strong> Stop boilerplate, start coding. <strong>Get Started Free</strong></p>
+        <div class="mt-8 flex justify-center"></div>
+    </div>
+</section>
+</main>
+<footer class="border-t border-slate-200 bg-white">
+    <div class="mx-auto max-w-6xl px-6 py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div>
+            <div class="flex items-center gap-2 font-semibold text-slate-900">
+                <span class="inline-block h-6 w-6 rounded-lg bg-gradient-to-br from-brand-primary to-brand-accent"></span>
+                Scaffold smoke test
+            </div>
+            <p class="mt-2 text-sm text-slate-500 max-w-md">Scaffold Smoke Test © 2023. All rights reserved. - <strong>Product:</strong> Features, How It Works, Pricing - <strong>Company:</strong> About, Blog, Contact - <strong>Legal:</strong> Privacy Policy, Terms of Service</p>
+        </div>
+        <p class="text-sm text-slate-500">© <span id="year"></span> Scaffold smoke test. Built with PostHog founder mode.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
